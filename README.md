@@ -78,39 +78,39 @@ sudo rmmod monitor
 
 **Screenshot 1 — Supervisor running with two containers registered**
 
-![Supervisor terminal showing kernel monitor opened and both containers registered](1.jpeg)
+![Supervisor terminal showing kernel monitor opened and both containers registered](screenshots/supervisor_startup.jpeg)
 
 **Screenshot 2 — `engine ps` showing both containers running**
 
-![PS output showing alpha and beta running with correct soft/hard MiB limits](2.jpeg)
+![PS output showing alpha and beta running with correct soft/hard MiB limits](screenshots/engine_ps_output.jpeg)
 
 **Screenshot 3 — `engine logs` output**
 
-![Logs command for alpha](3.jpeg)
+![Logs command for alpha](screenshots/engine_logs.jpeg)
 
 **Screenshot 4 — `engine stop` command**
 
-![Stop command sending SIGTERM to alpha](4.jpeg)
+![Stop command sending SIGTERM to alpha](screenshots/engine_stop.jpeg)
 
 **Screenshot 5 — Supervisor response to stop**
 
-![Supervisor showing SIGTERM sent, escalated to SIGKILL](5.jpeg)
+![Supervisor showing SIGTERM sent, escalated to SIGKILL](screenshots/supervisor_sigkill.jpeg)
 
 **Screenshot 6 — Memory limits: SOFT LIMIT + HARD LIMIT + logs**
 
-![dmesg showing soft/hard limit events, ps showing hard_limit_killed, memory_hog logs](6.jpeg)
+![dmesg showing soft/hard limit events, ps showing hard_limit_killed, memory_hog logs](screenshots/memory_limit_enforcement.jpeg)
 
 **Screenshot 7 — Scheduling experiments**
 
-![Two cpu_hog containers with nice=0 and nice=10, with full log output](7.jpeg)
+![Two cpu_hog containers with nice=0 and nice=10, with full log output](screenshots/scheduling_experiments.jpeg)
 
 **Screenshot 8 — Clean teardown: no zombies + module unloaded**
 
-![ps aux grep defunct empty, dmesg showing module unloaded cleanly](8.jpeg)
+![ps aux grep defunct empty, dmesg showing module unloaded cleanly](screenshots/clean_teardown.jpeg)
 
 **Screenshot 9 — Supervisor full lifecycle**
 
-![Full supervisor lifecycle: startup, registrations, shutdown, clean exit with no zombies](9.jpeg)
+![Full supervisor lifecycle: startup, registrations, shutdown, clean exit with no zombies](screenshots/supervisor_lifecycle.jpeg)
 
 ---
 
