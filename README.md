@@ -82,7 +82,7 @@ dmesg | tail -3
 
 **Screenshot 2 — `engine ps` showing both containers running**
 
-![PS output showing alpha and beta running with correct soft/hard MiB limits](2..jpeg)
+![PS output showing alpha and beta running with correct soft/hard MiB limits](2.jpeg)
 
 **Screenshot 3 — `engine logs` output**
 
