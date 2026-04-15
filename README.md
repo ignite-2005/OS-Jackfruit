@@ -1,5 +1,8 @@
 # OS-Jackfruit
 
+## Team Details
+
+
 |           Name          |      SRN      |
 |-------------------------|---------------|
 | Surjo Sarkar            | PES1UG24CS484 |
